@@ -1,0 +1,43 @@
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+  }
+  
+  #customers table {
+    padding: 10px;
+    border-spacing: 10px;
+    border: 1px;
+  }
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  #customers td,
+  th {
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: lightgoldenrodyellow;
+  }
+  
+  #customers col.andere_kol {
+    max-width: 150px;
+  }
+  
+  #customers col.eerste_kol {
+    max-width: 125px;
+    min-width: 100px;
+  }
+  
+  #customers td.active {
+    background-color: darkorange;
+  }
+  
+  #customers td:hover {
+    background-color: #ddd;
+  }

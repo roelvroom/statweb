@@ -7,7 +7,7 @@
     <title>Document</title>
   </head>
   <body>
-    <form action="https://tm-statweb.be/forms.php">
+    <form action="https://tm-statweb.be/forms.php" method="post">
       <div>
         <label for="Voornaam"
           >voornaam:
@@ -17,7 +17,7 @@
       <div>
         <label for="Familienaam"
           >Familienaam:
-          <input type="text" name="Familienaam" id="Familienaam" required/>
+          <input type="text" name="Familienaam" id="Familienaam" required />
         </label>
       </div>
       <div>
@@ -30,7 +30,7 @@
         <label for="provincie"
           >Porvincie:
           <select name="provincie" id="provincie">
-              <option value="Limburg">Limburg</option>
+            <option value="Limburg">Limburg</option>
             <option value="Antwerpen">Antwerpen</option>
             <option value="Henegouwen">Henegouwen</option>
             <option value="Luik">Luik</option>
@@ -45,24 +45,26 @@
       <fieldset>
         <legend>geslacht</legend>
         <label for="man">man</label>
-        <input type="radio" name="geslacht" id="man" value="man">
+        <input type="radio" name="geslacht" id="man" value="man" />
         <label for="vrouw">vrouw</label>
-        <input type="radio" name="geslacht" id="vrouw" value="vrouw">
+        <input type="radio" name="geslacht" id="vrouw" value="vrouw" />
         <label for="andere">andere</label>
-        <input type="radio" name="geslacht" id="andere" value="andere">
+        <input type="radio" name="geslacht" id="andere" value="andere" />
       </fieldset>
       <div>
-        <label for="foto">Foto
-            <input type="file" name="filename" id="myfile" required>
+        <label for="foto"
+          >Foto
+          <input type="file" name="filename" id="myfile" required />
         </label>
       </div>
       <div>
-        <label for="voorwaarde">Ik ga akkoord met de algemene voorwaarden
-            <input type="checkbox" name="voorwaarde">
+        <label for="voorwaarde"
+          >Ik ga akkoord met de algemene voorwaarden
+          <input type="checkbox" name="voorwaarde" />
         </label>
       </div>
       <div>
-        <input type="submit" name="versturen">
+        <input type="submit" name="versturen" />
       </div>
     </form>
   </body>

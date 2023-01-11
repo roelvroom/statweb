@@ -1,0 +1,47 @@
+.borderradius{
+    border-radius: 30px;
+    width: 30%;
+    border-color: rgb(76, 196, 76);
+    padding: 15px;
+    font-weight: bold;
+}
+.green{
+    background-color: rgb(76, 196, 76);
+}
+.knop{
+    width: 30%;
+    background-color: rgb(76, 196, 76);
+    border: none;
+    color: white;
+    padding: 20px;
+    margin-top: 10px;
+}
+label{
+    font-weight: bold;
+}
+div{
+    margin:10px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(76, 196, 76);
+  }

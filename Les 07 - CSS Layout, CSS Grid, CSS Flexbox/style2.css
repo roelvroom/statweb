@@ -1,0 +1,30 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container div{
+    display: flex;
+
+}
+
+header{
+    padding: 50px;
+    background-color: rgb(12, 181, 238);
+    text-align: center;
+}
+
+main{
+    padding: auto;
+    background-color: black;
+}
+
+aside{
+    height: 200px;
+    background-color: green;
+}
+
+footer{
+    background-color: orange;
+    padding: 20px;
+}
